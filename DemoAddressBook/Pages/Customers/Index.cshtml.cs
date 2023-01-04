@@ -1,3 +1,12 @@
+//
+//  View records  - backend code to view records in tblCustomer
+//  
+//  to do: need to check for null data
+//         need to paginate data when more than 20 records are present
+//              alternatively use a "grid" stucture to make viewing and pagination easy
+//
+
+
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Data.SqlClient;
@@ -8,6 +17,7 @@ namespace DemoAddressBook.Pages.Customers
     public class IndexModel : PageModel
     {
 
+        // customers list to display
         public List <Customer> customers = new List<Customer> ();
         public void OnGet()
         {
@@ -97,6 +107,7 @@ namespace DemoAddressBook.Pages.Customers
         }
     }
 
+        // a Utility class to populate pages and queries
         public class Customer 
         {
 

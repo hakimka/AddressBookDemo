@@ -1,3 +1,11 @@
+
+//
+//  Edit  - backend code to edit existing records in tblCustomer
+//  
+//  to do: need to validate data
+//
+
+
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Data.SqlClient;

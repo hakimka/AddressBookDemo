@@ -1,3 +1,12 @@
+//
+//  Create  - backend code to create records in tblCustomer
+//  
+//  to do: need to validate data
+//
+
+
+
+
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Data.SqlClient;
